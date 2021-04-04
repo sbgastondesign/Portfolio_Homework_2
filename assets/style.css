@@ -1,0 +1,150 @@
+/* Font style for Entire Document */
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    background-image: url("./backgroundimg.jpg");
+    max height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style and placement for header */
+Nav {
+    position: fixed 0px;
+    background-color: rgb(247, 233, 207);
+    height: 90px;
+}
+
+Nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    flex: 1 0 0;
+    line-height: 90px;
+    justify-content: space-between;
+}
+
+
+.menu {
+    flex-flow: row;
+}
+
+.navbloc {
+    color: rgb(105, 145, 255);
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#Logo {
+    font-size: larger;
+    color: white;
+    background-color: rgb(105, 145, 255); 
+    border-radius: 60px;
+    line-height: 90px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+#About {
+    background-color: rgb(129, 129, 139);
+}
+
+#About header {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+#About p {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.box {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: none;
+}
+
+.box header {
+    background-color: rgb(105, 145, 255); 
+    border-radius: 60px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    line-height: 60px;
+    padding: 0px 20px 0px 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.box a {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.box img {
+    width: 100%;
+    min-width: 400px;
+    border-radius: 60px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+  }
+
+
+footer {
+    background-color: rgb(247, 233, 207);
+    height: 90px;
+}
+
+footer ul {
+    color: rgb(105, 145, 255); 
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    margin: 30px;
+    display: flex; 
+    line-height: 90px;
+    justify-content: space-between;
+    max-width: 1000px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    Nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      footer ul {
+        flex-direction: column;
+        width: 100%;
+      }
+    }
