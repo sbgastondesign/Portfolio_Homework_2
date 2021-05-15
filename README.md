@@ -1,21 +1,15 @@
-# Portfolio_Homework_2
-Second assignment creating a portfolio using flexbox, media queries and css variables
+# Portfolio_Homework_Updated
+Assignment 8. An updated portfolio featuring Project 1 and two exemplary homework assignments.
 
 ## Goal:
-The goal was to create a website and css from scratch utilizing the advaced css skills we learned in class.
+The goal was to update an existing website with current work; including links to download an updated resume, an updated LinkedIn profile and Github profile. 
 
 ## Issues:
-- Unsure as to why my headshot would not show up. 
-
-- More review is required of flexbox and media queries. How the properties are based off parent elements is challenging when you have multiple 
+- Headshot would not show up. 
 
 ## Results:
 
-![Finished site.](./assets/screenshot.png)
-
-
-## Summary:
-This assignment was challenging. It showed me where the gaps in my knowledge are. Although I do have a deeper understanding of CSS I know I need to work on media queries and flexbox more.
+![Finished site.](./assets/updated-portfolio.png)
 
 
 ## Table of Contents
@@ -23,7 +17,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Goal](#Goal)
 - [Issues](#Issues)
 - [Results](#Results)
-- [Summary](#Summary)
 
 
 _____

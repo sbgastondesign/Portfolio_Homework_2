@@ -32,6 +32,9 @@ Nav ul {
     justify-content: space-between;
 }
 
+#About {
+margin: 20px;
+}
 
 .menu {
     flex-flow: row;
@@ -65,7 +68,8 @@ main {
     margin-top: 2%;
 }
 
-#About {
+
+/* #About {
     background-color: rgb(129, 129, 139);
 }
 
@@ -82,7 +86,7 @@ main {
     padding: 10px;
     padding-bottom: 25px;
     color: white;
-}
+} */
 
 .box {
     flex: 1 0 0;
@@ -119,23 +123,40 @@ main {
 
 
 footer {
-    background-color: rgb(247, 233, 207);
+    /* background-color: rgb(247, 233, 207); */
     height: 90px;
+    display: flex;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
 }
 
 footer ul {
+    background-color: rgb(247, 233, 207);
     color: rgb(105, 145, 255); 
-    display: flex;
     list-style: none;
-    padding: 0px 20px;
-    margin: 30px;
-    display: flex; 
+    /* padding: 0px 20px; */
+
     line-height: 90px;
     justify-content: space-between;
-    max-width: 1000px;
+    /* flex: 1 0 0; */
+    display: flex;
+    list-style: none;
+    line-height: 90px;
     text-align: center;
+    width: 100%;
 }
 
+footer li {
+    color: rgb(105, 145, 255); 
+    list-style: none;
+    margin: 30px; 
+    line-height: 90px;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+
+}
 
 @media only screen and (max-width: 768px) {
     Nav ul {
