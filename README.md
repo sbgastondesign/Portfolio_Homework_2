@@ -10,7 +10,7 @@ The goal was to update an existing website with current work; including links to
 ## Results:
 
 ![Finished site.](./assets/updated-portfolio.png)
-
+https://sbgastondesign.github.io/Portfolio_Homework_2/
 
 ## Table of Contents
 If your README is long, add a table of contents to make it easy for users to find what they need.
